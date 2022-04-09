@@ -22,7 +22,7 @@ logging.basicConfig(
 Blaze = TelegramClient(None, Var.API_KEY, Var.API_HASH)
 Blaze.start(bot_token=Var.TOKEN)
 
-print("STARTING BANALL BOT SERVER....") 
+print("STARTING BANALL BOT BY VENOM SERVER....") 
 
 """
 MOVING TO COMMANDS NOW
