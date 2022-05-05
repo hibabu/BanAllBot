@@ -49,7 +49,7 @@ async def ping(e):
 @Blaze.on(events.NewMessage(pattern="^/restart"))
 async def restart(e):
     if e.sender_id in GANDU:
-        text = "Ma Chud Gai Vro🤣...!!!"
+        text = "Ma Chud Gai Vro🤣....!!!"
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await Blaze.disconnect()
